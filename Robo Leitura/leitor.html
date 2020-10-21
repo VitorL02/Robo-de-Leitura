@@ -1,0 +1,19 @@
+
+<!DOCTYPE html> 
+<html>
+    <link rel="stylesheet" href="leitor.css">
+    
+<body class="m-auto text-center">
+    <div class="border border-purple m-4" contenteditable
+    oninput="setText(event)"
+    >
+        Digite seu Texto 
+    </div>
+    <button onclick="speak()" class='p-4 bg-purple-200 rounded shadow'>
+        Falar</button>
+    <button onclick="stop()" class='p-4 bg-purple-700  rounded text-white shadow'> 
+        Parar</button>
+</body>
+<script src ='robot.js'></script>
+
+</html>
